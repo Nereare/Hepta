@@ -11,10 +11,9 @@ skip_tags: true
 build: off
 
 environment:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES: true
-  - RUBY_VERSION: 22
-#  matrix:
-#    - RUBY_VERSION: 22
+  NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+  matrix:
+    - RUBY_VERSION: 22
 #    - RUBY_VERSION: 21
 #    - RUBY_VERSION: 22-x64
 #    - RUBY_VERSION: 21-x64
