@@ -11,6 +11,10 @@
 *.msm
 *.msp
 
+# Output Folders #
+##################
+_site/**
+
 # NodeJs #
 ##########
 node_modules/
@@ -34,6 +38,22 @@ node_modules/
 *.log
 *.log*
 *.sqlite
+
+# Adobe Source Files #
+######################
+# git is not a good tool for versioning Adobe Suite files, such as .psd
+# So we exclude them - maintain only the exported images and interchangeable formats, such as .svg, as opposed to .ai
+*.psd
+*.pdd
+*.psb
+*.ai
+*.ait
+*.eps
+*.epsf
+*.ps
+*.cdr
+*.indd
+*.indt
 
 # OS generated files #
 ######################
@@ -75,5 +95,7 @@ test.*
 test*.*
 tests.*
 tests*.*
+
+# Misc #
+########
 res/**
-_site/**
