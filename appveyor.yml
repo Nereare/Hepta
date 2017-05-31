@@ -12,15 +12,14 @@ build: off
 
 environment:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES: true
-  - RUBY_VERSION: 22
-#  matrix:
-#    - RUBY_VERSION: 22
+  matrix:
+    - RUBY_VERSION: 22
 #    - RUBY_VERSION: 21
 #    - RUBY_VERSION: 22-x64
 #    - RUBY_VERSION: 21-x64
 
 install:
-  - set PATH=C:\Ruby%RUBY_FOLDER_VER%\bin;%PATH%
+  - set PATH=C:\Ruby%RUBY_FOLDER_VER%\bin;C:\Program Files\Git\mingw64\bin;%PATH%
   - bundle install
   - gem install jekyll html-proofer
 
