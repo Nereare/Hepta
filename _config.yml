@@ -1,0 +1,39 @@
+# Site Settings
+name: Hepta
+title: Nereare
+description: The personal GitHub page for Igor Padoim, a.k.a. Nereare.
+keywords: ""
+lang: en_US
+baseurl: ""
+url: https://nereare.github.io
+timezone: America/Sao_Paulo
+
+# Collections Settings
+collections:
+  repos:
+    output: true
+    permalink: /projects/:name
+
+# User Settings
+username: Nereare
+user_title: Igor Padoim
+email: igorpadoim@gmail.com
+twitter_username: nereare
+github_username: Nereare
+gplus_username: IgorPadoim
+disqus_username: Nereare
+google-analytics_code: UA-84004924-2
+
+# Build Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+gems:
+  - jemoji
+
+# Meta Settings
+exclude: ["readme.md", "license.md", "changelog.md", "res"]
+include: [".htaccess"]
