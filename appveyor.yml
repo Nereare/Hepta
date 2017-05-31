@@ -20,12 +20,11 @@ environment:
 
 install:
   - set PATH=C:\Ruby%RUBY_FOLDER_VER%\bin;%PATH%
+  - bundle install --local path vendor/bundle
   - gem install jekyll html-proofer
-  - bundle install
 
 init:
   - git config --global core.autocrlf input
-  - echo 'Beginning test.'
 
 before_test:
   - ruby -v
