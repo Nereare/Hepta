@@ -9,6 +9,9 @@ branches:
 # Do not build on tags (GitHub and BitBucket)
 skip_tags: true
 
+environment:
+  NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
 init:
   - git config --global core.autocrlf input
   - echo 'Beginning test.'
