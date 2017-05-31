@@ -1,28 +1,31 @@
 # version format
-version: 0.1.0-build.{build}
+version: 0.1.0-build.{build}-{branch}
 
 branches:
-  # blacklist
-  except:
-    - gh-pages
+  only:
+    - master
 
 # Do not build on tags (GitHub and BitBucket)
 skip_tags: true
 
+build: off
+
 environment:
   NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+  matrix:
+    - RUBY_VERSION: 22
+    - RUBY_VERSION: 21
+    - RUBY_VERSION: 22-x64
+    - RUBY_VERSION: 21-x64
+
+install:
+  - set PATH=C:\Ruby%RUBY_FOLDER_VER%\bin;%PATH%
+  - gem install jekyll html-proofer
+  - bundle install
 
 init:
   - git config --global core.autocrlf input
   - echo 'Beginning test.'
-
-install:
-  - set PATH=C:\Ruby22\bin;%PATH%
-  - bundle install
-  - gem install jekyll html-proofer
-
-# Don't actually build.
-build: off
 
 before_test:
   - ruby -v
