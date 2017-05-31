@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/Nereare/Hepta.svg?branch=master)](https://travis-ci.org/Nereare/Hepta)
 [![Dependency Status](https://dependencyci.com/github/Nereare/Hepta/badge)](https://dependencyci.com/github/Nereare/Hepta)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 [![Join the chat at https://gitter.im/Hepta-Theme/Lobby](https://badges.gitter.im/Hepta-Theme/Lobby.svg)](https://gitter.im/Hepta-Theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A theme for Jekyll-based pages, created for [my personal page](https://nereare.github.io/).
@@ -47,4 +48,18 @@ This projects uses [SemVer](http://semver.org/) for versioning. For the versions
 
 ## License
 
+### Theme
+
 [![MIT License](http://i.imgur.com/Ze3dFob.png "MIT License")](https://choosealicense.com/licenses/mit/)
+
+The Jekyll theme files, such as but not restricted to HTML, CSS, Markdown and Gemfiles, except when credited
+above and except for images, are licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+### Images
+
+[![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png "Creative Commons License")](http://creativecommons.org/licenses/by-sa/4.0/)
+
+All original images on this project, except when credited above, are licensed under a [Creative Commons
+Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+The original images of this project are also available at [my DeviantArt](http://nereare.deviantart.com/gallery/63150759/Hepta-Theme).
