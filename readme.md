@@ -1,7 +1,8 @@
 # Hepta Theme
 
-[![Version](https://img.shields.io/badge/version-0.1.0--alpha.0-lightgrey.svg "v0.1.0")](https://github.com/nereare/Hepta/)
+[![Version](https://img.shields.io/badge/version-0.1.0-lightgrey.svg "v0.1.0")](https://github.com/nereare/Hepta/)
 [![Build Status](https://travis-ci.org/Nereare/Hepta.svg?branch=master)](https://travis-ci.org/Nereare/Hepta)
+[![Build status](https://ci.appveyor.com/api/projects/status/686tb282e675adyc?svg=true)](https://ci.appveyor.com/project/Nereare/hepta)
 [![Dependency Status](https://dependencyci.com/github/Nereare/Hepta/badge)](https://dependencyci.com/github/Nereare/Hepta)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)

@@ -35,5 +35,5 @@ gems:
   - jemoji
 
 # Meta Settings
-exclude: ["readme.md", "license.md", "changelog.md", "res"]
+exclude: ["readme.md", "license.md", "changelog.md", "res", "appveyor.yml"]
 include: [".htaccess"]
