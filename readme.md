@@ -1,5 +1,7 @@
 # Hepta Theme
 
+[![Join the chat at https://gitter.im/Hepta-Theme/Lobby](https://badges.gitter.im/Hepta-Theme/Lobby.svg)](https://gitter.im/Hepta-Theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Version](https://img.shields.io/badge/version-0.1.0--alpha.0-lightgrey.svg "v0.1.0")](https://github.com/nereare/Hepta/)
 [![Build Status](https://travis-ci.org/Nereare/Hepta.svg?branch=master)](https://travis-ci.org/Nereare/Hepta)
 [![Dependency Status](https://dependencyci.com/github/Nereare/Hepta/badge)](https://dependencyci.com/github/Nereare/Hepta)
