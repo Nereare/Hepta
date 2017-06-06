@@ -1,11 +1,11 @@
 # Site Settings
 name: Hepta
-title: Nereare
-description: The personal GitHub page for Igor Padoim, a.k.a. Nereare.
+title: Lorem Ipsum
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra condimentum nunc, sit.
 keywords: ""
 lang: en_US
 baseurl: ""
-url: https://nereare.github.io
+url: ""
 timezone: America/Sao_Paulo
 
 # Collections Settings
@@ -15,14 +15,14 @@ collections:
     permalink: /projects/:name
 
 # User Settings
-username: Nereare
-user_title: Igor Padoim
-email: igorpadoim@gmail.com
-twitter_username: nereare
-github_username: Nereare
-gplus_username: IgorPadoim
-disqus_username: Nereare
-google-analytics_code: UA-84004924-2
+username: User
+user_title: Real Name
+email: your@email.here
+twitter_username: twitter
+github_username: github
+gplus_username: googleplus
+disqus_username: disqus
+google-analytics_code: UA-########-#
 
 # Build Settings
 markdown: kramdown

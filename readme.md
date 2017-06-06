@@ -8,6 +8,8 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 [![Join the chat at https://gitter.im/Hepta-Theme/Lobby](https://badges.gitter.im/Hepta-Theme/Lobby.svg)](https://gitter.im/Hepta-Theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+![Hepta Theme concept art](./screenshot.png "Mockup screenshot concept art from Hepta Theme")
+
 A theme for Jekyll-based pages, created for [my personal page](https://nereare.github.io/).
 
 ## Installation
@@ -40,8 +42,12 @@ This projects uses [SemVer](http://semver.org/) for versioning. For the versions
 
 ### Credits
 
- * [MIT License Logo](http://excaliburzero.deviantart.com/art/MIT-License-Logo-595847140) by [ExcaliburZero](http://excaliburzero.deviantart.com/)
- * [Skeleton](https://github.com/dhg/Skeleton)
+ * [MIT License Logo](http://excaliburzero.deviantart.com/art/MIT-License-Logo-595847140) by [ExcaliburZero](http://excaliburzero.deviantart.com/), available under a [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/)
+ * [Skeleton](https://github.com/dhg/Skeleton), available under the [MIT License](https://opensource.org/licenses/MIT)
+ * [Material Design](https://github.com/Templarian/MaterialDesign):
+    * Template available under the [WTF Public License](http://www.wtfpl.net/)
+    * Community icons available under the [SIL Open Font License](https://opensource.org/licenses/OFL-1.1)
+    * Google Material Design Icons available under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 ### Thanks
 
