@@ -54,7 +54,7 @@
     <main class="container">
       <!-- Repository Collection -->
       <div class="repositories">
-        {% if site.repos %}
+        {% if site.repos | size %}
         <h2>Repositories</h2>
           {% for repo in site.repos %}
             {% assign even = forloop.index | modulo: 2 %}
