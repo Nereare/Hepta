@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/Nereare/Hepta.svg?branch=master)](https://travis-ci.org/Nereare/Hepta)
 [![Build status](https://ci.appveyor.com/api/projects/status/686tb282e675adyc?svg=true)](https://ci.appveyor.com/project/Nereare/hepta)
 [![Dependency Status](https://dependencyci.com/github/Nereare/Hepta/badge)](https://dependencyci.com/github/Nereare/Hepta)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 [![Join the chat at https://gitter.im/Hepta-Theme/Lobby](https://badges.gitter.im/Hepta-Theme/Lobby.svg)](https://gitter.im/Hepta-Theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -57,10 +57,10 @@ This projects uses [SemVer](http://semver.org/) for versioning. For the versions
 
 ### Theme
 
-[![MIT License](http://i.imgur.com/Ze3dFob.png "MIT License")](https://choosealicense.com/licenses/mit/)
+[![MIT License](http://i.imgur.com/Ze3dFob.png "MIT License")](https://opensource.org/licenses/MIT)
 
 The Jekyll theme files, such as but not restricted to HTML, CSS, Markdown and Gemfiles, except when credited
-above and except for images, are licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+above and except for images, are licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ### Images
 
