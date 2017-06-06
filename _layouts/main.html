@@ -58,8 +58,8 @@
         {% if repo_count > 0 %}
         <h2>Repositories</h2>
           {% for repo in site.repos %}
-            {% assign even = forloop.index | modulo: 2 %}
-            {% if even == 0 %}
+            {% capture pass %}{% cycle 'open', 'close' %}{% endcapture %}
+            {% if pass == 'open' %}
         <div class="row">
             {% endif %}
           <div class="repository six columns">
@@ -72,7 +72,7 @@
               {% endif %}
             </p>
           </div>
-            {% if even == 1 %}
+            {% if pass == 'close' %}
         </div>
             {% endif %}
           {% endfor %}
