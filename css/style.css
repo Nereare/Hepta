@@ -55,6 +55,19 @@ nav #nav {
   text-align: center;
 }
 
+/* REPOSITORY DEFINITIONS
+ * Definitions regarting the Repository collection divs.
+ * ===================================================== */
+.repository {
+  background: #e0e0e0;
+  border: #616161 solid 1px;
+  border-radius: 1rem;
+}
+.repository h3 { font-size: 1.5rem; }
+.repository h3 a { text-decoration: none; }
+.repository p { font-size: 1rem; }
+.repository p a { text-indent: 3rem; }
+
 /* FOOTER DEFINITIONS
  * Definitions regarding the footer.
  * ================================= */
@@ -68,3 +81,13 @@ footer .copyright {
   text-align: justify;
 }
 footer .copyright .license { font-size: 1rem; }
+footer .social-media {
+  padding: 1.5rem;
+  font-size: 3rem;
+  width: 3rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 0;
+  border-radius: 50%;
+  color: #ffffff;
+}

@@ -63,7 +63,7 @@
         <div class="row">
             {% endif %}
           <div class="repository six columns">
-            <h3><i class="mdi mdi-git"></i><a href="{{ repo.url }}">{{ repo.title }}</a></h3>
+            <h3><a href="{{ repo.url }}"><i class="mdi mdi-git"></i>{{ repo.title }}</a></h3>
             <p>
               {{ repo.description }}
               {% if repo.site %}
@@ -72,7 +72,7 @@
               {% endif %}
             </p>
           </div>
-            {% if pass == 'close' %}
+            {% if pass == 'close' or forloop.last %}
         </div>
             {% endif %}
           {% endfor %}
