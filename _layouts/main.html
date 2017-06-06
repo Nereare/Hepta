@@ -4,7 +4,91 @@
   {% include head.html %}
 
   <body>
-    {{ content }}
+    <!-- Header Compartment -->
+    <header>
+      <div class="title">
+        <!-- Title of the site -->
+        <h1>{{ site.title }}</h1>
+        <!-- Site description and Social Media links -->
+        <p>
+          {{ site.description }}
+          <br />
+          <span class="social-media">
+            <a href="https://twitter.com/{{ site.twitter_username }}" class="mdi mdi-twitter"></a>
+            <a href="https://twitter.com/{{ site.github_username }}" class="mdi mdi-github-circle"></a>
+            <a href="https://twitter.com/{{ site.gplus_username }}" class="mdi mdi-google-plus"></a>
+            <a href="https://twitter.com/{{ site.disqus_username }}" class="mdi mdi-disqus"></a>
+          </span>
+        </p>
+        <!-- Link down -->
+        <p class="chev-down">
+          <a href="#start" class="mdi mdi-chevron-double-down"></a>
+        </p>
+      </div>
+    </header>
+
+    <!-- Nav Bar -->
+    <nav class="container">
+      <!-- Menu bar with four link capacity. -->
+      <ul id="nav" class="row">
+        <!-- First Link -->
+        <li class="three columns">
+          <a href="">First</a>
+        </li>
+        <!-- Second Link -->
+        <li class="three columns">
+          <a href="">Second</a>
+        </li>
+        <!-- Third Link -->
+        <li class="three columns">
+          <a href="">Third</a>
+        </li>
+        <!-- Fourth Link -->
+        <li class="three columns">
+          <a href="">Fourth</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Compartment -->
+    <main class="container">
+      <!-- Repository Collection -->
+      <div class="repositories">
+        {% if site.repos %}
+        <h2>Repositories</h2>
+          {% for repo in site.repos %}
+            {% assign even = forloop.index | modulo: 2 %}
+            {% if even == 0 %}
+        <div class="row">
+            {% endif %}
+          <div class="repository">
+            <h3><i class="mdi mdi-git"></i><a href="{{ repo.url }}">{{ repo.title }}</a></h3>
+            <p>
+              {{ repo.description }}
+              {% if repo.site %}
+              <br />
+              <a href="{{ repo.site }}">Site</a>
+              {% endif %}
+            </p>
+          </div>
+            {% if even == 1 %}
+        </div>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+        <div class="row">
+          <div class="twelve columns">
+            {% No repositories to show :sad: | markdownify %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+      <!-- Here comes everything the user manually defined. -->
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
   </body>
 
 </html>
