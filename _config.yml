@@ -8,6 +8,16 @@ baseurl: ""
 url: ""
 timezone: America/Sao_Paulo
 
+# Copyright Settings
+# Note: the values of these variables are regarding the **content** of the site,
+# not the theme data - these are set above.
+copyright:
+  author: Author Name
+  year: Year
+  license:
+    name: License name
+    url: http://where.the.license.is
+
 # Collections Settings
 collections:
   repos:
