@@ -1,3 +1,6 @@
+---
+---
+
 /* GENERAL DEFINITIONS
  * Definitions not covered in the Skeleton sheet.
  * ============================================== */
@@ -23,7 +26,7 @@ header .title {
   width: 100%;
   min-height: 200px;
   text-align: center;
-  background: #212121 url("{{ assets/Header.jpg }}") center/cover no-repeat;
+  background: #212121 url("{{ "assets/Header.jpg" | relative_url }}") center/cover no-repeat;
   overflow: hidden;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
