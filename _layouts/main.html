@@ -15,9 +15,9 @@
           <br />
           <span class="social-media">
             <a href="https://twitter.com/{{ site.twitter_username }}" class="mdi mdi-twitter"></a>
-            <a href="https://twitter.com/{{ site.github_username }}" class="mdi mdi-github-circle"></a>
-            <a href="https://twitter.com/{{ site.gplus_username }}" class="mdi mdi-google-plus"></a>
-            <a href="https://twitter.com/{{ site.disqus_username }}" class="mdi mdi-disqus"></a>
+            <a href="https://github.com/{{ site.github_username }}" class="mdi mdi-github-circle"></a>
+            <a href="https://plus.google.com/+{{ site.gplus_username }}" class="mdi mdi-google-plus"></a>
+            <a href="https://disqus.com/by/{{ site.disqus_username }}" class="mdi mdi-disqus"></a>
           </span>
         </p>
         <!-- Link down -->
@@ -67,7 +67,6 @@
             <p>
               {{ repo.description }}
               {% if repo.site %}
-              <br />
               <a href="{{ repo.site }}">Site</a>
               {% endif %}
             </p>
