@@ -54,14 +54,15 @@
     <main class="container">
       <!-- Repository Collection -->
       <div class="repositories">
-        {% if site.repos | size %}
+        {% assign repo_count = site.repos | size %}
+        {% if repo_count > 0 %}
         <h2>Repositories</h2>
           {% for repo in site.repos %}
             {% assign even = forloop.index | modulo: 2 %}
             {% if even == 0 %}
         <div class="row">
             {% endif %}
-          <div class="repository">
+          <div class="repository six columns">
             <h3><i class="mdi mdi-git"></i><a href="{{ repo.url }}">{{ repo.title }}</a></h3>
             <p>
               {{ repo.description }}
