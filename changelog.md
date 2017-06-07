@@ -31,4 +31,4 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
  * Created `git` repository;
  * Created project icon.
 
-[Unreleased]: https://github.com/Nereare/Hepta/compare/0.1.0-alpha.0...HEAD
+[Unreleased]: https://github.com/Nereare/Hepta/compare/v0.1.0...HEAD

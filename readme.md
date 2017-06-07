@@ -1,6 +1,6 @@
 # Hepta Theme
 
-[![Version](https://img.shields.io/badge/version-0.1.0-lightgrey.svg "v0.1.0")](https://github.com/nereare/Hepta/)
+[![Version](https://img.shields.io/badge/version-v0.1.0-lightgrey.svg "v0.1.0")](https://github.com/nereare/Hepta/)
 [![Build Status](https://travis-ci.org/Nereare/Hepta.svg?branch=master)](https://travis-ci.org/Nereare/Hepta)
 [![Build status](https://ci.appveyor.com/api/projects/status/686tb282e675adyc?svg=true)](https://ci.appveyor.com/project/Nereare/hepta)
 [![Dependency Status](https://dependencyci.com/github/Nereare/Hepta/badge)](https://dependencyci.com/github/Nereare/Hepta)
@@ -21,6 +21,8 @@ A theme for Jekyll-based pages, created for [my personal page](https://nereare.g
   * Run `gem install jekyll bundler`
 3. Run it: `bundle exec jekyll serve`
 4. Go to [your local serving of jekyll](http://localhost:4000)
+
+For guidance on how to use this theme, see the [Hepta Wiki](https://github.com/Nereare/Hepta/wiki).
 
 ## Contributing
 
@@ -48,10 +50,6 @@ This projects uses [SemVer](http://semver.org/) for versioning. For the versions
     * Template available under the [WTF Public License](http://www.wtfpl.net/)
     * Community icons available under the [SIL Open Font License](https://opensource.org/licenses/OFL-1.1)
     * Google Material Design Icons available under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
-
-### Thanks
-
- * ?
 
 ## License
 
