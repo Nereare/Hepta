@@ -38,7 +38,7 @@
         <li class="three columns page">
           <a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="mdi mdi-{{ page.icon }}"></i>{% endif %}{{ page.title }}</a>
         </li>
-            {% if pass == 'close' %}
+            {% if pass == 'close' or forloop.last %}
       </ul>
             {% endif %}
           {% endunless %}
@@ -99,15 +99,15 @@
             <h3><a href="{{ post.permalink | relative_url }}">{{ post.title }}</a></h3>
             <p>
               <span class="date">{{ post.date | date: '%A, %b %e, %Y' }}</span>
-              {% if post.excerpt %}
+              {% if post.blob %}
               <br />
-              {{ post.excerpt }}
+              {{ post.blob }}
               <br />
               <a href="{{ post.permalink | relative_url }}">Read more...</a>
               {% endif %}
             </p>
           </div>
-            {% if pass == 'close' %}
+            {% if pass == 'close' or forloop.last %}
         </di>
             {% endif %}
           {% endfor %}
