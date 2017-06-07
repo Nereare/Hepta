@@ -2,8 +2,8 @@ language: ruby
 rvm:
 - 2.3.3
 
-install: gem install jekyll html-proofer
-script: bundle install && bundle exec jekyll build && bundle exec htmlproofer ./_site
+install: gem install jekyll
+script: bundle install && bundle exec jekyll build
 
 env:
   global:
