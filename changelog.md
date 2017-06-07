@@ -36,4 +36,4 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
   * CI and depedency checking configurations;
   * Gemspec definitions.
 
-[Unreleased]: https://github.com/Nereare/Hepta/compare/0.2.0...HEAD
+[Unreleased]: https://github.com/Nereare/Hepta/compare/v0.2.0...HEAD
