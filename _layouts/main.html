@@ -96,14 +96,14 @@
         <div class="row">
             {% endif %}
           <div class="six columns post">
-            <h3><a href="{{ post.permalink | relative_url }}">{{ post.title }}</a></h3>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
             <p class="date">{{ post.date | date: '%A, %b %e, %Y' }}</p>
               {% if post.blob %}
             <p>
               {{ post.blob }}
             </p>
             <p class="read-more">
-              <a class="button" href="{{ post.permalink | relative_url }}">Read more...</a>
+              <a class="button" href="{{ post.url | relative_url }}">Read more...</a>
             </p>
               {% endif %}
           </div>
