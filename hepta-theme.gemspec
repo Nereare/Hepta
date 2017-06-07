@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "hepta-theme"
-  spec.version       = "v0.1.0"
+  spec.version       = "v0.2.0"
   spec.authors       = ["Igor Padoim"]
   spec.email         = ["igorpadoim@gmail.com"]
 
