@@ -14,10 +14,7 @@
           {{ site.description }}
           <br />
           <span class="social-media">
-            <a href="https://twitter.com/{{ site.twitter_username }}" class="mdi mdi-twitter"></a>
-            <a href="https://github.com/{{ site.github_username }}" class="mdi mdi-github-circle"></a>
-            <a href="https://plus.google.com/+{{ site.gplus_username }}" class="mdi mdi-google-plus"></a>
-            <a href="https://disqus.com/by/{{ site.disqus_username }}" class="mdi mdi-disqus"></a>
+            {% include social-links.html %}
           </span>
         </p>
         <!-- Link down -->
@@ -30,24 +27,21 @@
     <!-- Nav Bar -->
     <nav class="container">
       <!-- Menu bar with four link capacity. -->
-      <ul id="nav" class="row">
-        <!-- First Link -->
+      {% assign page_count = site.pages | size %}
+      {% if page_count > 0 %}
+        {% for page in site.pages %}
+          {% capture pass %}{% cycle 'open', 'foo', 'bar', 'close' %}{% endcapture %}
+          {% if pass == 'open' %}
+      <ul class="nav row">
+          {% endif %}
         <li class="three columns">
-          <a href="">First</a>
+          <a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="mdi mdi-{{ page.icon }}"></i>{% endif %}{{ page.title }}</a>
         </li>
-        <!-- Second Link -->
-        <li class="three columns">
-          <a href="">Second</a>
-        </li>
-        <!-- Third Link -->
-        <li class="three columns">
-          <a href="">Third</a>
-        </li>
-        <!-- Fourth Link -->
-        <li class="three columns">
-          <a href="">Fourth</a>
-        </li>
+          {% if pass == 'close' %}
       </ul>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </nav>
 
     <!-- Main Compartment -->

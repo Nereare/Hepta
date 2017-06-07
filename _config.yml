@@ -28,10 +28,19 @@ collections:
 username: User
 user_title: Real Name
 email: your@email.here
-twitter_username: twitter
-github_username: github
-gplus_username: googleplus
-disqus_username: disqus
+# The social links bars offer support to a variety of social medias. If you don't
+# have any of the listed bellow, or if you want to omit it for any reason, simply
+# delete the line of the property, and it won't be rendered.
+social:
+  twitter: twitter
+  reddit: reddit        # Format your reddit name as either 'u/username' or 'r/subreddit', as you see fitter for your wishes.
+  github: github
+  gplus: googleplus     # Omit the '+' char, it is added to the links already.
+  instagram: instagram
+  hackernews: hackernews
+  disqus: disqus
+  linkedin: linkedin
+  facebook: facebook
 google-analytics_code: UA-########-#
 
 # Build Settings
