@@ -66,6 +66,17 @@ nav .nav .page i { margin-right: 0.5rem; }
 .repository h3 i { margin-right: 0.5rem; }
 .repository h3 a { text-decoration: none; }
 
+/* MAIN POSTS DEFINITIONS
+ * Definitions regarding the Post listing on the Main layout.
+ * ========================================================== */
+.post p { margin-bottom: 0.5rem; }
+.post .date, .post .read-more { text-indent: 0; }
+.post .date {
+  text-indent: 0;
+  font-size: 1rem;
+}
+.post .read-more { text-align: center; }
+
 /* FOOTER DEFINITIONS
  * Definitions regarding the footer.
  * ================================= */

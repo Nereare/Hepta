@@ -97,15 +97,15 @@
             {% endif %}
           <div class="six columns post">
             <h3><a href="{{ post.permalink | relative_url }}">{{ post.title }}</a></h3>
-            <p>
-              <span class="date">{{ post.date | date: '%A, %b %e, %Y' }}</span>
+            <p class="date">{{ post.date | date: '%A, %b %e, %Y' }}</p>
               {% if post.blob %}
-              <br />
+            <p>
               {{ post.blob }}
-              <br />
-              <a href="{{ post.permalink | relative_url }}">Read more...</a>
-              {% endif %}
             </p>
+            <p class="read-more">
+              <a class="button" href="{{ post.permalink | relative_url }}">Read more...</a>
+            </p>
+              {% endif %}
           </div>
             {% if pass == 'close' or forloop.last %}
         </div>
