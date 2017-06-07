@@ -24,7 +24,7 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
       * `Fixed` for any bug fixes.
       * `Security` to invite users to upgrade in case of vulnerabilities.
 
-## [Unrealeased]
+## [Unreleased]
 
 ## 0.2.0 - `2017-06-07`
 
