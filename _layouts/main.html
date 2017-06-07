@@ -30,7 +30,7 @@
       {% assign page_count = site.pages | size %}
       {% if page_count > 0 %}
         {% for page in site.pages %}
-          {% unless page.path == '404.md' or page.path == 'index.md' %}
+          {% if page.layout == 'page' %}
             {% capture pass %}{% cycle 'open', 'foo', 'bar', 'close' %}{% endcapture %}
             {% if pass == 'open' %}
       <ul class="nav row">
@@ -41,7 +41,7 @@
             {% if pass == 'close' or forloop.last %}
       </ul>
             {% endif %}
-          {% endunless %}
+          {% endif %}
         {% endfor %}
       {% endif %}
     </nav>
