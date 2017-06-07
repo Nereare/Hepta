@@ -81,7 +81,40 @@
       </div>
 
       <!-- Here comes everything the user manually defined. -->
-      {{ content }}
+      <div class="user-content">
+        {{ content }}
+      </div>
+
+      <!-- Posts List -->
+      <div class="posts">
+        <h2>Posts</h2>
+        {% assign post_count = site.posts | size %}
+        {% if post_count > 0 %}
+          {% for post in site.posts %}
+            {% capture pass %}{% cycle 'open', 'close' %}{% endcapture %}
+            {% if pass == 'open' %}
+        <div class="row">
+            {% endif %}
+          <div class="six columns post">
+            <h3><a href="{{ post.permalink | relative_url }}">{{ post.title }}</a></h3>
+            <p>
+              <span class="date">{{ post.date | date: '%A, %b %e, %Y' }}</span>
+              {% if post.excerpt %}
+              <br />
+              {{ post.excerpt }}
+              <br />
+              <a href="{{ post.permalink | relative_url }}">Read more...</a>
+              {% endif %}
+            </p>
+          </div>
+            {% if pass == 'close' %}
+        </di>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+        <p>No posts here yet.</p>
+        {% endif %}
+      </div>
     </main>
 
     {% include footer.html %}
