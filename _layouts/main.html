@@ -31,7 +31,7 @@
       {% if page_count > 0 %}
         {% for page in site.pages %}
           {% if page.layout == 'page' %}
-            {% capture pass %}{% cycle 'open', 'foo', 'bar', 'close' %}{% endcapture %}
+            {% capture pass %}{% cycle 'pages': 'open', '', '', 'close' %}{% endcapture %}
             {% if pass == 'open' %}
       <ul class="nav row">
             {% endif %}
@@ -54,7 +54,7 @@
         {% if repo_count > 0 %}
         <h2>Repositories</h2>
           {% for repo in site.repos %}
-            {% capture pass %}{% cycle 'open', 'close' %}{% endcapture %}
+            {% capture pass %}{% cycle 'repos': 'open', 'close' %}{% endcapture %}
             {% if pass == 'open' %}
         <div class="row">
             {% endif %}
@@ -91,7 +91,7 @@
         {% assign post_count = site.posts | size %}
         {% if post_count > 0 %}
           {% for post in site.posts %}
-            {% capture pass %}{% cycle 'open', 'close' %}{% endcapture %}
+            {% capture pass %}{% cycle 'posts': 'open', 'close' %}{% endcapture %}
             {% if pass == 'open' %}
         <div class="row">
             {% endif %}
@@ -108,7 +108,7 @@
             </p>
           </div>
             {% if pass == 'close' or forloop.last %}
-        </di>
+        </div>
             {% endif %}
           {% endfor %}
         {% else %}
