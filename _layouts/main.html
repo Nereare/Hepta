@@ -30,16 +30,18 @@
       {% assign page_count = site.pages | size %}
       {% if page_count > 0 %}
         {% for page in site.pages %}
-          {% capture pass %}{% cycle 'open', 'foo', 'bar', 'close' %}{% endcapture %}
-          {% if pass == 'open' %}
+          {% unless page.path == '404.md' or page.path == 'index.md' %}
+            {% capture pass %}{% cycle 'open', 'foo', 'bar', 'close' %}{% endcapture %}
+            {% if pass == 'open' %}
       <ul class="nav row">
-          {% endif %}
+            {% endif %}
         <li class="three columns">
           <a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="mdi mdi-{{ page.icon }}"></i>{% endif %}{{ page.title }}</a>
         </li>
-          {% if pass == 'close' %}
+            {% if pass == 'close' %}
       </ul>
-          {% endif %}
+            {% endif %}
+          {% endunless %}
         {% endfor %}
       {% endif %}
     </nav>
