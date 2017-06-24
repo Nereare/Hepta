@@ -8,10 +8,10 @@
       <!-- Menu bar with four link capacity. -->
       {% assign page_count = site.pages | size %}
       {% if page_count > 0 %}
-      <ul class="nav row">
+      <ul>
         {% for page in site.pages %}
           {% if page.layout == 'page' %}
-        <li class="three columns page">
+        <li>
           <a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="mdi mdi-{{ page.icon }}"></i>{% endif %}{{ page.title }}</a>
         </li>
           {% endif %}
