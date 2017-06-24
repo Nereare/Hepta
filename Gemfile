@@ -8,6 +8,8 @@ gem "jekyll", "3.3.1"
 gem "jemoji"
 # This adds HTML-proofing capabilities.
 gem "html-proofer"
+# This adds Gravatar hashing capabilities.
+gem "jekyll-gravatar"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
