@@ -2,12 +2,24 @@
 ---
 
 /*
- * VARIABLES
- * Variables used throughout this code.
- * ==================================== */
+ * SCSS SPECIFICS
+ * Variables and mixins used throughout this code.
+ * =============================================== */
 $White:   #ffffff;
 $Gray500: #9e9e9e;
 $Gray900: #212121;
+
+$social-iconsize: 3rem;
+
+@mixin social-media-icons($size) {
+  padding: 1.5rem;
+  font-size: $size;
+  width: $size;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 0;
+  border-radius: 50%;
+}
 
 /* GENERAL DEFINITIONS
  * Definitions not covered in the Skeleton sheet.
@@ -48,9 +60,6 @@ header.index {
   p { line-height: 350%; }
   p.chev-down { margin-bottom: 4rem; }
   .mdi {
-    padding: 1.5rem;
-    font-size: 3rem;
-    width: 3rem;
     text-align: center;
     text-decoration: none;
     margin: 0 0;
@@ -116,13 +125,5 @@ footer {
   }
   .social-media {
     text-align: center;
-    a {
-      padding: 1.5rem;
-      font-size: 3rem;
-      width: 3rem;
-      text-decoration: none;
-      margin: 0 0;
-      border-radius: 50%;
-    }
   }
 }
