@@ -127,6 +127,21 @@ header.default {
   }
 }
 
+/* 404 DEFINITIONS
+ * Definitions regarting the 404 layout.
+ * ===================================================== */
+main {
+  &.er404 {
+    h1, p { text-align: center; }
+    svg {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25rem;
+    }
+  }
+}
+
 /* REPOSITORY DEFINITIONS
  * Definitions regarting the Repository collection divs.
  * ===================================================== */
