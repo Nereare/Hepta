@@ -26,6 +26,19 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 
 ## [Unreleased]
 
+## [0.6.0] - `2017-06-24`
+
+### Added
+
+  * `page` layout;
+  * `404` layout;
+  * `about` layout;
+  * [Jekyll-Gravatar](https://github.com/mrsimo/jekyll-gravatar) (by [Albert Llop](https://github.com/mrsimo)) gem.
+
+### Changed
+
+  * Converted stylesheet from plain CSS to SCSS.
+
 ## 0.2.0 - `2017-06-07`
 
 ### Added
@@ -36,4 +49,5 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
   * CI and depedency checking configurations;
   * Gemspec definitions.
 
-[Unreleased]: https://github.com/Nereare/Hepta/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/Nereare/Hepta/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/Nereare/Hepta/compare/v0.2.0...v0.6.0
