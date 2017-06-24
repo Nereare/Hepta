@@ -1,6 +1,14 @@
 ---
 ---
 
+/*
+ * VARIABLES
+ * Variables used throughout this code.
+ * ==================================== */
+$White:   #ffffff;
+$Gray500: #9e9e9e;
+$Gray900: #212121;
+
 /* GENERAL DEFINITIONS
  * Definitions not covered in the Skeleton sheet.
  * ============================================== */
@@ -28,7 +36,7 @@ header.index {
     width: 100%;
     min-height: 200px;
     text-align: center;
-    background: #212121 url("{{ "assets/Header.jpg" | relative_url }}") center/cover no-repeat;
+    background: $Gray900 url("{{ "assets/Header.jpg" | relative_url }}") center/cover no-repeat;
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 
@@ -47,7 +55,7 @@ header.index {
     text-decoration: none;
     margin: 0 0;
     border-radius: 50%;
-    color: #ffffff;
+    color: $White;
   }
 }
 
@@ -96,12 +104,12 @@ header.default {}
  * Definitions regarding the footer.
  * ================================= */
 footer {
-  background: #212121;
-  color: #ffffff;
+  background: $Gray900;
+  color: $White;
   padding-top: 2rem;
 
   .copyright {
-    color: #9e9e9e;
+    color: $Gray500;
     text-align: justify;
 
     .license { font-size: 1rem; }
