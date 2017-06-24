@@ -1,29 +1,19 @@
 # Site Settings
-name: Hepta
 title: Lorem Ipsum
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra condimentum nunc, sit.
 keywords: ""
 lang: en_US
-baseurl: ""
-url: ""
 timezone: America/Sao_Paulo
-permalink: /posts/:year/:month/:day/:title.html
 
 # Copyright Settings
 # Note: the values of these variables are regarding the **content** of the site,
-# not the theme data - these are set above.
+# not the theme data.
 copyright:
   author: Author Name
   year: Year
   license:
     name: License name
     url: http://where.the.license.is
-
-# Collections Settings
-collections:
-  repos:
-    output: true
-    permalink: /projects/:name
 
 # User Settings
 username: User
@@ -44,6 +34,28 @@ social:
   facebook: facebook
 google-analytics_code: UA-########-#
 
+###############################
+#        META SETTINGS        #
+#        -------------        #
+# The settings below here are #
+# required by the theme, for  #
+# it to work.                 #
+# Change them at your own     #
+# risks.                      #
+###############################
+
+# Theme Settings
+name: Hepta
+baseurl: ""
+url: ""
+permalink: /posts/:year/:month/:day/:title.html
+
+# Collections Settings
+collections:
+  repos:
+    output: true
+    permalink: /projects/:name
+
 # Build Settings
 markdown: kramdown
 kramdown:
@@ -53,6 +65,8 @@ kramdown:
   syntax_highlighter: rouge
 gems:
   - jemoji
+sass:
+  style: compressed
 
 # Meta Settings
 exclude: ["readme.md", "license.md", "changelog.md", "res", "appveyor.yml", "buddy.yml"]
