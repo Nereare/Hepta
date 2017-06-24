@@ -47,6 +47,8 @@ This projects uses [SemVer](http://semver.org/) for versioning. For the versions
 
  * [MIT License Logo](http://excaliburzero.deviantart.com/art/MIT-License-Logo-595847140) by [ExcaliburZero](http://excaliburzero.deviantart.com/), available under a [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/)
  * [Skeleton](https://github.com/dhg/Skeleton), available under the [MIT License](https://opensource.org/licenses/MIT)
+ * [Jekyll Gravatar](https://github.com/mrsimo/jekyll-gravatar), available under the [MIT License](https://opensource.org/licenses/MIT)
+ * [Jemoji](https://github.com/jekyll/jemoji), available under the [MIT License](https://opensource.org/licenses/MIT)
  * [Material Design](https://github.com/Templarian/MaterialDesign):
     * Template available under the [WTF Public License](http://www.wtfpl.net/)
     * Community icons available under the [SIL Open Font License](https://opensource.org/licenses/OFL-1.1)
