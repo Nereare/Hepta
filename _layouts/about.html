@@ -11,7 +11,13 @@
         <img class="gravatar" src="{{ site.user.gravatar | to_gravatar }}?s=150" />
         <div>
           <h2>{{ site.user.name }}</h2>
-          <p>{{ site.user.blurb }}</p>
+          <p>
+            {{ site.user.blurb }}
+            {% if site.user.email %}
+            <br />
+            <a class="mdi mdi-email" href="mailto:{{ site.user.email }}">Email</a>
+            {% endif %}
+          </p>
         </div>
       </div>
       {{ content }}

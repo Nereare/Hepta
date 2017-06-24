@@ -141,7 +141,13 @@ main {
     }
   }
   .about {
+    overflow: auto;
+    margin-bottom: 3rem;
     img, div { float: left; }
+    img {
+      clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+      margin-right: 1.5rem;
+    }
   }
 }
 
