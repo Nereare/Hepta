@@ -127,9 +127,9 @@ header.default {
   }
 }
 
-/* 404 DEFINITIONS
- * Definitions regarting the 404 layout.
- * ===================================================== */
+/* MAIN DEFINITIONS
+ * Definitions regarting the all layouts and also specific ones.
+ * ============================================================= */
 main {
   &.er404 {
     h1, p { text-align: center; }
@@ -139,6 +139,9 @@ main {
       margin-right: auto;
       width: 25rem;
     }
+  }
+  .about {
+    img, div { float: left; }
   }
 }
 
