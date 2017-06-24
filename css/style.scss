@@ -87,11 +87,8 @@ header.default {}
  * ========================================================== */
 .post {
   p { margin-bottom: 0.5rem; }
-  .date, .post .read-more { text-indent: 0; }
-  .date {
-    text-indent: 0;
-    font-size: 1rem;
-  }
+  .date, .read-more { text-indent: 0; }
+  .date { font-size: 1rem; }
   .read-more { text-align: center; }
 }
 
