@@ -3,7 +3,6 @@
 [![Version](https://img.shields.io/badge/version-0.2.0-lightgrey.svg "0.2.0")](https://github.com/nereare/Hepta/)
 [![Build Status](https://travis-ci.org/Nereare/Hepta.svg?branch=master)](https://travis-ci.org/Nereare/Hepta)
 [![Build status](https://ci.appveyor.com/api/projects/status/686tb282e675adyc?svg=true)](https://ci.appveyor.com/project/Nereare/hepta)
-[![Buddy Pipeline](https://app.buddy.works/nereare/hepta/pipelines/pipeline/53801/badge.svg?token=7234c52b12afa2f108244ef7dbdf851e7a6555c8ad8397fd2b8dd7da4f983869)](https://app.buddy.works/nereare/hepta/pipelines/pipeline/53801)
 [![Dependency Status](https://dependencyci.com/github/Nereare/Hepta/badge)](https://dependencyci.com/github/Nereare/Hepta)
 [![Code Climate](https://codeclimate.com/github/Nereare/Hepta/badges/gpa.svg)](https://codeclimate.com/github/Nereare/Hepta)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
