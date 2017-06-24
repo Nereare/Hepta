@@ -1,6 +1,6 @@
 # Hepta Theme
 
-[![Version](https://img.shields.io/badge/version-0.2.0-lightgrey.svg "0.2.0")](https://github.com/nereare/Hepta/)
+[![Version](https://img.shields.io/badge/version-0.6.0-lightgrey.svg "0.6.0")](https://github.com/nereare/Hepta/)
 [![Build Status](https://travis-ci.org/Nereare/Hepta.svg?branch=master)](https://travis-ci.org/Nereare/Hepta)
 [![Build status](https://ci.appveyor.com/api/projects/status/686tb282e675adyc?svg=true)](https://ci.appveyor.com/project/Nereare/hepta)
 [![Dependency Status](https://dependencyci.com/github/Nereare/Hepta/badge)](https://dependencyci.com/github/Nereare/Hepta)
