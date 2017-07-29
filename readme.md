@@ -1,11 +1,11 @@
 # Hepta Theme
 
-[![Version](https://img.shields.io/badge/version-0.6.0-lightgrey.svg "0.6.0")](https://github.com/nereare/Hepta/)
+[![GitHub version](https://img.shields.io/github/tag/Nereare/Hepta.svg)](https://github.com/Nereare/Hepta)
 [![Build Status](https://travis-ci.org/Nereare/Hepta.svg?branch=master)](https://travis-ci.org/Nereare/Hepta)
 [![Build status](https://ci.appveyor.com/api/projects/status/686tb282e675adyc?svg=true)](https://ci.appveyor.com/project/Nereare/hepta)
 [![Dependency Status](https://dependencyci.com/github/Nereare/Hepta/badge)](https://dependencyci.com/github/Nereare/Hepta)
 [![Code Climate](https://codeclimate.com/github/Nereare/Hepta/badges/gpa.svg)](https://codeclimate.com/github/Nereare/Hepta)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Project License](https://img.shields.io/github/license/Nereare/Hepta.svg)](https://github.com/Nereare/Hepta)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 [![Join the chat at https://gitter.im/Hepta-Theme/Lobby](https://badges.gitter.im/Hepta-Theme/Lobby.svg)](https://gitter.im/Hepta-Theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
