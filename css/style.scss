@@ -9,6 +9,9 @@ $White:   #ffffff;
 $Gray500: #9e9e9e;
 $Gray900: #212121;
 
+$link: #26A69A;
+$link-h: #009688;
+
 $social-iconsize: 3rem;
 $nav_height:      3rem;
 $width_lim:      550px;
@@ -35,6 +38,10 @@ main {
     text-align: justify;
     text-indent: 3rem;
   }
+}
+a {
+  color: $link;
+  &:hover { color: $link-h; }
 }
 
 /* MAIN HEADER DEFINITIONS

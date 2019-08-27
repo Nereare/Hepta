@@ -28,13 +28,12 @@ social:
   twitter: twitter
   reddit: reddit        # Format your reddit name as either 'u/username' or 'r/subreddit', as you see fitter for your wishes.
   github: github
-  gplus: googleplus     # Omit the '+' char, it is added to the links already.
   instagram: instagram
   hackernews: hackernews
   disqus: disqus
   linkedin: linkedin
   facebook: facebook
-google-analytics_code: UA-########-#
+#google-analytics_code: UA-########-#
 
 ###############################
 #        META SETTINGS        #
@@ -65,12 +64,28 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
-gems:
-  - jemoji
+plugins:
+  - jekyll-feed
   - jekyll-gravatar
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+# Relativize links in collections
+relative_links   :
+  enabled        : true
+  collections    : true
 sass:
   style: compressed
 
 # Meta Settings
-exclude: ["readme.md", "license.md", "changelog.md", "res", "appveyor.yml", "buddy.yml"]
-include: [".htaccess"]
+exclude:
+  - readme.md
+  - license.md
+  - changelog.md
+  - res/
+  - appveyor.yml
+  - buddy.yml
+include:
+  - .htaccess
