@@ -27,21 +27,13 @@
     <!-- Nav Bar -->
     <nav class="container index">
       <!-- Menu bar with four link capacity. -->
-      {% assign page_count = site.pages | size %}
-      {% if page_count > 0 %}
-        {% for page in site.pages %}
-          {% if page.layout == 'page' %}
-            {% capture pass %}{% cycle 'pages': 'open', '', '', 'close' %}{% endcapture %}
-            {% if pass == 'open' %}
-      <ul class="nav row">
-            {% endif %}
-        <li class="three columns page">
-          <a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="mdi mdi-{{ page.icon }}"></i>{% endif %}{{ page.title }}</a>
+      {% assign menu_count = site.menus | size %}
+      {% if menu_count > 0 %}
+      <ul>
+        {% for menu in site.menus %}
+        <li>
+          <a href="{{ menu.url | absolute_url }}">{% if menu.icon %}<i class="mdi mdi-{{ menu.icon }}"></i>{% endif %}{{ menu.title }}</a>
         </li>
-            {% if pass == 'close' or forloop.last %}
-      </ul>
-            {% endif %}
-          {% endif %}
         {% endfor %}
       {% endif %}
     </nav>

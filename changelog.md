@@ -42,6 +42,7 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 * Favicons.
 * Starred repositories handling.
 * Post handling.
+* Fix menu handling.
 
 ### Removed
 * Local files for fonts and `css` files.

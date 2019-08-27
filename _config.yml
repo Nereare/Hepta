@@ -35,6 +35,11 @@ social:
   facebook: facebook
 #google-analytics_code: UA-########-#
 
+collections:
+  # Menu List
+  menus:
+    output: true
+
 # Repositories Settings
 # List below up to *FOUR* repositories that you would like to star on your front page.
 star_repos:

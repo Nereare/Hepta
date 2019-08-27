@@ -6,15 +6,13 @@
     <!-- Nav Bar -->
     <nav class="eight columns">
       <!-- Menu bar with four link capacity. -->
-      {% assign page_count = site.pages | size %}
-      {% if page_count > 0 %}
+      {% assign menu_count = site.menus | size %}
+      {% if menu_count > 0 %}
       <ul>
-        {% for page in site.pages %}
-          {% if page.layout == 'page' %}
+        {% for menu in site.menus %}
         <li>
-          <a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="mdi mdi-{{ page.icon }}"></i>{% endif %}{{ page.title }}</a>
+          <a href="{{ menu.url | absolute_url }}">{% if menu.icon %}<i class="mdi mdi-{{ menu.icon }}"></i>{% endif %}{{ menu.title }}</a>
         </li>
-          {% endif %}
         {% endfor %}
       {% endif %}
     </nav>
