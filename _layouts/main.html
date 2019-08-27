@@ -50,18 +50,18 @@
     <main class="container">
       <!-- Repository Collection -->
       <div class="repositories">
-        {% assign repo_count = site.repos | size %}
-        {% if repo_count > 0 %}
-        <h2>Repositories</h2>
-          {% for repo in site.repos %}
+        <h2>Starred Repositories</h2>
+        {% assign repo_count = site.github.public_repositories | join: '' %}
+        {% if repo_count != '' %}
+          {% for repo in site.star_repos %}
             {% capture pass %}{% cycle 'repos': 'open', 'close' %}{% endcapture %}
             {% if pass == 'open' %}
         <div class="row">
             {% endif %}
           <div class="repository six columns">
-            <h3><a href="{{ repo.url }}"><i class="mdi mdi-git"></i>{{ repo.title }}</a></h3>
+            <h3><a href="{{ repo.url }}"><i class="mdi mdi-git"></i>{{ repo.name }}</a></h3>
             <p>
-              {{ repo.description }}
+              {{ repo.desc }}
               {% if repo.site %}
               <a href="{{ repo.site }}">Site</a>
               {% endif %}

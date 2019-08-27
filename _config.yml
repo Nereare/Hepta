@@ -35,6 +35,26 @@ social:
   facebook: facebook
 #google-analytics_code: UA-########-#
 
+# Repositories Settings
+# List below up to *FOUR* repositories that you would like to star on your front page.
+star_repos:
+  - name: Repo one
+    url: https://repo.home.here
+    desc: Description of the repository here
+    site: https://repo.site
+  - name: Repo two
+    url: https://repo.home.here
+    desc: Description of the repository here
+    site: https://repo.site
+  - name: Repo three
+    url: https://repo.home.here
+    desc: Description of the repository here
+    site: https://repo.site
+  - name: Repo four
+    url: https://repo.home.here
+    desc: Description of the repository here
+    site: https://repo.site
+
 ###############################
 #        META SETTINGS        #
 #        -------------        #
