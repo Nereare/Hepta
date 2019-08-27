@@ -34,6 +34,7 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 * `jekyll-github-metadata` gem.
 * Post layout.
 * Repositories layout.
+* Filter for retrieving external RSS and displaying these results.
 
 ### Changed
 * Bump `bundler` version.
