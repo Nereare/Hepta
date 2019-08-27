@@ -33,6 +33,7 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 * [Creative Commons BY-SA 4.0](CC-BY-SA.md) license copy.
 * `jekyll-github-metadata` gem.
 * Post layout.
+* Repositories layout.
 
 ### Changed
 * Bump `bundler` version.
