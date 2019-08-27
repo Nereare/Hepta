@@ -25,6 +25,9 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
     * `Security` to invite users to upgrade in case of vulnerabilities.
 
 ## [Unreleased]
+* ...
+
+## [1.0.0] - `2019-08-27`
 
 ### Added
 * Github metafiles (issues and PR templates).
@@ -60,7 +63,7 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 ### Changed
 * Converted stylesheet from plain CSS to SCSS.
 
-## 0.2.0 - `2017-06-07`
+## [0.2.0] - `2017-06-07`
 
 ### Added
 * Created repository;
@@ -69,5 +72,7 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 * CI and depedency checking configurations;
 * Gemspec definitions.
 
-[Unreleased]: https://github.com/Nereare/Hepta/compare/v0.6.0...HEAD
+[Unreleased]: https://github.com/Nereare/Hepta/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/Nereare/Hepta/compare/v1.0.0...v0.6.0
 [0.6.0]: https://github.com/Nereare/Hepta/compare/v0.2.0...v0.6.0
+[0.2.0]: https://github.com/Nereare/Hepta/releases/tag/v0.2.0
