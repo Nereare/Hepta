@@ -85,7 +85,7 @@
       <div class="repositories">
         {% assign repo_count = site.github.public_repositories | join: '' %}
         {% if repo_count != '' %}
-          {% for repo in site.github.public_repositories | where: 'archived', true %}
+          {% for repo in site.github.public_repositories %}
             {% if repo.archived == true %}
             {% capture pass %}{% cycle 'repos': 'open', 'close' %}{% endcapture %}
             {% if pass == 'open' %}
