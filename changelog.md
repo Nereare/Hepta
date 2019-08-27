@@ -31,6 +31,8 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 * Bot configurations.
 * [Code of Conduct](CODE-OF-CONDUCT.md) and [contribution guidelines](CONTRIBUTING.md).
 * [Creative Commons BY-SA 4.0](CC-BY-SA.md) license copy.
+* `jekyll-github-metadata` gem.
+* Post layout.
 
 ### Changed
 * Bump `bundler` version.
@@ -38,6 +40,8 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 * Bump `nokogiri` version.
 * Metafiles formats ([this one](CHANGELOG.md), [LICENSE.md](LICENSE.md) and [README.md](README.md)).
 * Favicons.
+* Starred repositories handling.
+* Post handling.
 
 ### Removed
 * Local files for fonts and `css` files.

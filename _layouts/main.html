@@ -96,11 +96,11 @@
         <div class="row">
             {% endif %}
           <div class="six columns post">
-            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
             <p class="date">{{ post.date | date: '%A, %b %e, %Y' }}</p>
-              {% if post.blob %}
+              {% if post.excerpt %}
             <p>
-              {{ post.blob }}
+              {{ post.excerpt | strip | truncate: 150 }}
             </p>
             <p class="read-more">
               <a class="button" href="{{ post.url | relative_url }}">Read more...</a>
