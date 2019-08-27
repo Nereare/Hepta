@@ -13,7 +13,7 @@ copyright:
   year: Year
   license:
     name: License name
-    url: http://where.the.license.is
+    url: https://opensource.org/
 
 # User Settings
 user:
@@ -26,12 +26,12 @@ user:
 # delete the line of the property, and it won't be rendered.
 social:
   twitter: twitter
-  reddit: reddit        # Format your reddit name as either 'u/username' or 'r/subreddit', as you see fitter for your wishes.
+  reddit: r/reddit        # Format your reddit name as either 'u/username' or 'r/subreddit', as you see fitter for your wishes.
   github: github
   instagram: instagram
   hackernews: hackernews
   disqus: disqus
-  linkedin: linkedin
+  linkedin: dummy-profile-47701386
   facebook: facebook
 #google-analytics_code: UA-########-#
 
@@ -44,21 +44,21 @@ collections:
 # List below up to *FOUR* repositories that you would like to star on your front page.
 star_repos:
   - name: Repo one
-    url: https://repo.home.here
+    url: https://github.com/Nereare/Hepta
     desc: Description of the repository here
-    site: https://repo.site
+    site: https://nereare.github.io/Hepta/
   - name: Repo two
-    url: https://repo.home.here
+    url: https://github.com/Nereare/Hepta
     desc: Description of the repository here
-    site: https://repo.site
+    site: https://nereare.github.io/Hepta/
   - name: Repo three
-    url: https://repo.home.here
+    url: https://github.com/Nereare/Hepta
     desc: Description of the repository here
-    site: https://repo.site
+    site: https://nereare.github.io/Hepta/
   - name: Repo four
-    url: https://repo.home.here
+    url: https://github.com/Nereare/Hepta
     desc: Description of the repository here
-    site: https://repo.site
+    site: https://nereare.github.io/Hepta/
 
 ###############################
 #        META SETTINGS        #
