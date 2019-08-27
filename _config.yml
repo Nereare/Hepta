@@ -26,7 +26,7 @@ user:
 # delete the line of the property, and it won't be rendered.
 social:
   twitter: twitter
-  reddit: r/reddit        # Format your reddit name as either 'u/username' or 'r/subreddit', as you see fitter for your wishes.
+  reddit: r/all        # Format your reddit name as either 'u/username' or 'r/subreddit', as you see fitter for your wishes.
   github: github
   instagram: instagram
   hackernews: hackernews
