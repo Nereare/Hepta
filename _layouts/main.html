@@ -43,7 +43,7 @@
       <!-- Repository Collection -->
       <div class="repositories">
         <h2>Starred Repositories</h2>
-        {% assign repo_count = site.github.public_repositories | join: '' %}
+        {% assign repo_count = site.star_repos | join: '' %}
         {% if repo_count != '' %}
           {% for repo in site.star_repos %}
             {% capture pass %}{% cycle 'repos': 'open', 'close' %}{% endcapture %}
