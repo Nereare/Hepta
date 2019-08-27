@@ -72,8 +72,8 @@ star_repos:
 
 # Theme Settings
 name: Hepta
-baseurl: ""
-url: ""
+#baseurl: ""
+#url: ""
 permalink: /posts/:year/:month/:day/:title.html
 repository: Nereare/nereare.github.io
 
