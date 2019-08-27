@@ -85,7 +85,7 @@ nav.index {
     text-align: center;
     li {
       display: inline-block;
-      margin-right: 0.7em;
+      margin-right: 0.7rem;
       a { text-decoration: none; }
       i { margin-right: 0.5rem; }
     }
@@ -188,6 +188,7 @@ footer {
   background: $Gray900;
   color: $White;
   padding-top: 2rem;
+  margin-top: 2rem;
 
   .copyright {
     color: $Gray500;
