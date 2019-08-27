@@ -50,12 +50,7 @@ name: Hepta
 baseurl: ""
 url: ""
 permalink: /posts/:year/:month/:day/:title.html
-
-# Collections Settings
-collections:
-  repos:
-    output: true
-    permalink: /projects/:name
+repository: Nereare/nereare.github.io
 
 # Build Settings
 markdown: kramdown
@@ -66,6 +61,7 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
   - jekyll-gravatar
   - jekyll-redirect-from
   - jekyll-relative-links
